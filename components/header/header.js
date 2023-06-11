@@ -11,7 +11,7 @@ export default function Header({ children }) {
     return (
         <StyledContainer>
             <StyledHeader>
-                <h1>This is my awesome project</h1>
+                <h1>Mobile version</h1>
              </StyledHeader>
         </StyledContainer>
     )
