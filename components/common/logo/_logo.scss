@@ -1,0 +1,9 @@
+.header--logo{
+    width: 119px;
+    height: 22px;
+
+    @media (min-width: 768px) {
+        width: 193px;
+        height: 33px;
+    }
+}

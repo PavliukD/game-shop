@@ -1,13 +1,13 @@
-'use client'
-import StyledContainer from '../components/container'
-import Header from '@/components/header/header'
-
+import Header from "@/components/common/header/header"
+import Logo from "@/components/common/logo/logo"
 
 export default function Home() {
   return (
     <main>
-      <Header></Header>
-      <StyledContainer></StyledContainer>
+      <Header>
+        <Logo/>
+      </Header>
     </main>
+    
   )
 }
